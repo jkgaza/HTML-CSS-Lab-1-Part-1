@@ -49,7 +49,14 @@ button{
 .text{
     align-content: right;
     color: gray;
+    
+
+}
+
+.vertical-line{
     border-left: 4px solid #636364;
+    margin-right: 10px;
     margin-left: 10px;
+    padding-right: 15px;
 
 }
