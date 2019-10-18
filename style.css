@@ -1,5 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+
 .nav {
   display: block;
+}
+
+a:link{
+    color: gray;
+}
+
+a:visited{
+    color: black;
 }
 
 .div1 {
@@ -20,8 +30,20 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
+  font-size: 14px;
+  margin: auto;
   cursor: pointer;
-  border-radius: 25%;
+  border-radius: 25px;
+  width: 100%;
+}
+
+button{
+    width: 100%;
+}
+
+
+.text{
+    align-content: right;
+    color: gray;
+
 }
