@@ -49,5 +49,7 @@ button{
 .text{
     align-content: right;
     color: gray;
+    border-left: 4px solid #636364;
+    margin-left: 10px;
 
 }
