@@ -3,17 +3,21 @@
 .nav {
   display: block;
   font-size: 12px;
-  margin: 5px 30px 10px 5px; 
+  margin: 5px 30px 10px 5px;
 }
 
-a:link{
-    color: gray;
-    text-decoration: none;
+.title {
+  color: black;
 }
 
-a:visited{
-    color: gray;
-    text-decoration: none;
+a:link {
+  color: gray;
+  text-decoration: none;
+}
+
+a:visited {
+  color: gray;
+  text-decoration: none;
 }
 
 .div1 {
@@ -41,37 +45,44 @@ a:visited{
   width: 80%;
 }
 
-button{
-    width: 100%;
+button {
+  width: 100%;
 }
 
 
-.text{
-    align-content: right;
-    color: gray;
-    font-size: 13px;
-    padding: 15px;
-    
-
+.text {
+  align-content: right;
+  color: gray;
+  font-size: 13px;
+  padding: 15px;
 }
 
-.vertical-line{
-    border-left: 4px solid #636364;
-    margin-right: 10px;
-    margin-left: 10px;
-    padding-right: 15px;
-
+.vertical-line {
+  border-left: 4px solid #636364;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-right: 15px;
 }
 
- @media screen and (min-width: 768px){
+@media screen and (min-width: 768px){
   .nav {
     display: flex;
     font-size: 12px;
     margin: 5px 30px 10px 5px; 
+    flex-direction: row;
+  }
+
+  .nav a {
+    padding-left: 8px;
   }
 
   button .button{
     display: flex;
-    
+
   }
+
+  .nav .title{
+    flex-grow: 1;
+  }
+  
  }
