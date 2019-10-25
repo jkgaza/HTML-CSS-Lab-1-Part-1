@@ -71,7 +71,7 @@ p {
     flex-direction: row;
   }
 
-  .div2{
+  .div2 {
     margin-right: 30px;
   }
 
@@ -80,10 +80,13 @@ p {
     padding-right: 15px;
   }
 
-  .button {
+  /* .button {
     display: flex;
     text-align: center;
-  }
+    border: none;
+    background-color: transperant;
+    outline: none;
+  } */
 
   .nav .title {
     flex-grow: 1;
@@ -97,8 +100,11 @@ p {
     top: 0;
     right: 0;
     width: 8.5%;
-    text-align: center;
+    /* text-align: center; */
     line-height: 10px;
+    border: none;
+    background-color: transparent;
+    outline: none;
   }
 
   .bottom {
