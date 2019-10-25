@@ -71,8 +71,12 @@ p {
     flex-direction: row;
   }
 
+  .div2{
+    margin-right: 30px;
+  }
+
   .nav a {
-    padding-left: 8px;
+    padding-left: 2px;
     padding-right: 15px;
   }
 
