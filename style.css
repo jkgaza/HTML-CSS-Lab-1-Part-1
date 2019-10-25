@@ -74,6 +74,7 @@ button {
 
   .nav a {
     padding-left: 8px;
+    padding-right: 10px;
   }
 
   button .button{
@@ -84,5 +85,14 @@ button {
   .nav .title{
     flex-grow: 1;
   }
+
+  .hire{
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 15%;
+  }
+
   
  }
