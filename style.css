@@ -43,13 +43,11 @@ a:visited {
   cursor: pointer;
   border-radius: 25px;
   width: 80%;
-
 }
 
 button {
-  width: 100%; 
+  width: 100%;
 }
-
 
 p {
   align-content: right;
@@ -65,11 +63,11 @@ p {
   padding-right: 15px;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
   .nav {
     display: flex;
     font-size: 12px;
-    margin: 5px 30px 10px 5px; 
+    margin: 5px 30px 10px 5px;
     flex-direction: row;
   }
 
@@ -78,37 +76,41 @@ p {
     padding-right: 10px;
   }
 
-  button .button{
+  button .button {
     display: flex;
-
   }
 
-  .nav .title{
+  .nav .title {
     flex-grow: 1;
   }
 
-/*Working on adjusting buttons*/
-  .hire{
+  /*Working on adjusting buttons*/
+  .hire {
     display: flex;
     position: absolute;
     top: 0;
     right: 0;
     width: 12%;
+  }
+
+  .scroll {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 12%;
 
   }
 
-button.scroll{
-  display: flex;
-  position: absolute;
-  bottom: 0;
-  align-content: center;
-  width: 12%;
-}
+  /*Buttons end - Put .scroll in separate whole body div? */
 
-/*Buttons end*/
-  
+  .main-content {
+    padding-top: 15%;
+  }
 
-.main-content{
-  padding-top: 17%;
+  p{
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    width: 40%;
+  }
 }
- }
