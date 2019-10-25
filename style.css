@@ -67,17 +67,18 @@ p {
   .nav {
     display: flex;
     font-size: 12px;
-    margin: 5px 30px 10px 5px;
+    margin: 5px 60px 20px 15px;
     flex-direction: row;
   }
 
   .nav a {
     padding-left: 8px;
-    padding-right: 10px;
+    padding-right: 15px;
   }
 
-  button .button {
+  .button {
     display: flex;
+    text-align: center;
   }
 
   .nav .title {
@@ -88,18 +89,23 @@ p {
   .hire {
     display: flex;
     position: absolute;
+    margin: 0 auto;
     top: 0;
     right: 0;
-    width: 12%;
+    width: 8.5%;
+    text-align: center;
+    line-height: 10px;
   }
 
-  .scroll {
-    
+  .bottom {
+    display: flex;
+  }
+
+  .bottom .scroll {
+    align-items: flex-end;
     position: absolute;
     bottom: 0;
     width: 12%;
-    
-
   }
 
   /*Buttons end - Put .scroll in separate whole body div? */
@@ -108,7 +114,7 @@ p {
     padding-top: 15%;
   }
 
-  p{
+  p {
     display: flex;
     align-content: flex-start;
     flex-wrap: wrap;
