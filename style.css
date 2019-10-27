@@ -132,11 +132,25 @@ p {
 
 /* Circles*/
 
+.circles{
+  display: flex;
+  position: absolute;
+  right: -7px;
+  top: -6px;
+
+}
+
   .c1{
     border-radius: 50%;
     width: 180px;
     height: 180px;
     background-color: rgba(247, 136, 167, 0.6);
+    top: 0;
+    z-index: 1;
+    -webkit-transform: translate(50%, 100%);
+    transform: translate(80%, 90%);
+  
+
   }
 
   .c2{
@@ -144,6 +158,9 @@ p {
     width: 140px;
     height: 140px;
     background-color: rgba(247, 193, 162, 0.7);
+    z-index: 3;
+    -webkit-transform: translate(-20px, -20px);
+    transform: translate(50px, 260px)
   }
 
   .c3{
@@ -151,6 +168,10 @@ p {
     width: 100px;
     height: 100px;
     background-color: rgba(207, 130, 213, 0.6);
+    z-index: 2;
+    -webkit-transform: translate(20%, 20%);
+    transform: translate(-40%, 200%)
   }
+
   
 }
