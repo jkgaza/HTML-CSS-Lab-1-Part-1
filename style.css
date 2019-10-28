@@ -98,19 +98,30 @@ p {
 
 
   .bottom {
-    display: flex;
-    width: 10%;
-    height: 8%;
-    border: none;
-    background: transparent;
-    position: absolute;
-    margin: 0 auto;
-    
-  }
+    display: table;
+}
+.scroll {
+    width: 8.5%;
+    line-height: 10px;
+    padding: 1%;
+    display: table-cell;
+    text-align: center;
+    vertical-align: bottom;
+    margin-left: 200px;
+}
 
-  .bottom .scroll {
+
+
+  /* .scroll {
+    display: flex;
     justify-content: center;
-  }
+    position: absolute;
+    bottom: 0;
+    line-height: 10px;
+    width: 8.5%;
+    border: none;
+    outline: none;
+  } */
 
   /*Buttons end*/
 
