@@ -80,14 +80,6 @@ p {
     padding-right: 15px;
   }
 
-  /* .button {
-    display: flex;
-    text-align: center;
-    border: none;
-    background-color: transperant;
-    outline: none;
-  } */
-
   .nav .title {
     flex-grow: 1;
   }
@@ -96,31 +88,31 @@ p {
   .hire {
     display: flex;
     position: absolute;
-    margin: 0 auto;
     top: 0;
     right: 0;
     width: 8.5%;
     line-height: 10px;
     border: none;
-    background-color: transparent;
     outline: none;
   }
+
 
   .bottom {
     display: flex;
     width: 10%;
-    align-items: center;
+    height: 8%;
     border: none;
     background: transparent;
+    position: absolute;
+    margin: 0 auto;
+    
   }
 
   .bottom .scroll {
-    align-items: flex-end;
-    position: absolute;
-    bottom: 0;
+    justify-content: center;
   }
 
-  /*Buttons end - Put .scroll in separate whole body div? */
+  /*Buttons end*/
 
   .main-content {
     padding-top: 15%;
@@ -134,17 +126,16 @@ p {
     width: 50%;
   }
 
-/* Circles*/
+  /* Circles*/
 
-.circles{
-  display: flex;
-  position: absolute;
-  right: -7px;
-  top: -10px;
+  .circles {
+    display: flex;
+    position: absolute;
+    right: -7px;
+    top: -10px;
+  }
 
-}
-
-  .c1{
+  .c1 {
     border-radius: 50%;
     width: 180px;
     height: 180px;
@@ -153,29 +144,25 @@ p {
     z-index: 1;
     -webkit-transform: translate(90%, 100%);
     transform: translate(80%, 150%);
-  
-
   }
 
-  .c2{
+  .c2 {
     border-radius: 50%;
     width: 140px;
     height: 140px;
     background-color: rgba(247, 193, 162, 0.7);
     z-index: 3;
     -webkit-transform: translate(-20px, -20px);
-    transform: translate(50px, 380px)
+    transform: translate(50px, 380px);
   }
 
-  .c3{
+  .c3 {
     border-radius: 50%;
     width: 100px;
     height: 100px;
     background-color: rgba(207, 130, 213, 0.6);
     z-index: 2;
     -webkit-transform: translate(20%, 20%);
-    transform: translate(-40%, 310%)
+    transform: translate(-40%, 310%);
   }
-
-  
 }
